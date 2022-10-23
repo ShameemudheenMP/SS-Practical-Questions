@@ -26,6 +26,8 @@ void clear()
 		frame[i] =- 1;
 }
 
+
+// First In First Out
 void fifo()
 {
 	clear();
@@ -54,6 +56,7 @@ void fifo()
 	printf("Page faults in FIFO = %d\n", count);
 }
 
+// Least Recently Used
 void lru()
 {
 	clear();
@@ -110,6 +113,7 @@ void lru()
 	printf("Page faults in LRU = %d\n", count);
 }
 
+// Least Frequently Used
 void lfu()
 {
 	clear();
